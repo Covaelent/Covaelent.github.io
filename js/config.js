@@ -27,8 +27,7 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Enjoy your stay!",
-  "This loadingscreen is made by Exsite"
+  "Enjoy your stay!"
 ];
 
 /**
@@ -41,7 +40,7 @@ Config.announcementLength = 3000;
  * Image Filename
  * DROP IMAGE IN "images" FOLDER
  */
-Config.backgroundImage = "default.jpg";
+Config.backgroundImage = "default1.jpg";
 
 /**
  * Enable debug messages?
