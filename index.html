@@ -1,60 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-  font-size: 17px;
-  background-color: #585858;
-}
-
-#myVideo {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  margin:auto;
-}
-
-.content {
-  position: fixed;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-</style>
-</head>
-<body>
-
-<video autoplay muted id="myVideo">
-  <source src="intro.webm" type="video/webm">
-  Your browser does not support HTML5 video.
-</video>
-
-
-</body>
+	<head>
+		<meta name="robots" content="noindex" />
+		<meta charset="utf-8" />
+		<title>SleekLoad</title>
+		<script type="text/javascript">
+			document.write(
+				'<link rel="stylesheet" href="css/sleek.css?' +
+					Math.random() +
+					'">'
+			);
+		</script>
+	</head>
+	<body>
+		<div id="video-container"></div>
+		<div id="player"></div>
+		<div id="overlay"></div>
+		<div id="header">
+			<div id="title"></div>
+			<div id="subtitle" data-lang="below_logo"></div>
+		</div>
+		<div id="status-container">
+			<span id="status-left" data-lang="loading"></span>
+			<span id="status-right">0%</span>
+			<div id="loading">
+				<div id="loading-progress"></div>
+			</div>
+			<div id="messages"></div>
+		</div>
+		<div id="music">
+			<span data-lang="now_playing"></span>
+			<div id="music-name"></div>
+		</div>
+		<div id="enable-audio">Click here to enable music preview</div>
+		<div id="error-box"></div>
+		<div id="warn"></div>
+		<script src="js/vendor/objectFitPolyfill.min.js"></script>
+		<script src="js/vendor/jquery-2.1.1.min.js"></script>
+		<script src="js/vendor/jquery.backstretch.min.js"></script>
+		<script src="js/sleek.js"></script>
+	</body>
 </html>
