@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "intro.webm"
+config.background_video = "theclonewars.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "",
-		youtube: "https://youtu.be/8YQDeWW6euE?si=Tdcl84_LlFINXTpb",
+		youtube: "https://www.youtube.com/watch?v=eX3ZyLNbV_Y",
 	},
 ]
 
