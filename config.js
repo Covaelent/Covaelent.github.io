@@ -24,7 +24,7 @@ config.logo_use_image = false
 config.logo_image = ""
 
 // Text to be shown on logo
-config.logo_text = "Protocol Gaming"
+config.logo_text = "Halo: Harvest"
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "theclonewars.webm"
+config.background_video = "intro.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "",
-		youtube: "https://www.youtube.com/watch?v=eX3ZyLNbV_Y",
+		youtube: "https://www.youtube.com/watch?v=76CfsShdqTU",
 	},
 ]
 
