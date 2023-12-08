@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "intro.webm"
+config.background_video = "reach.webm"
 
 // (Image-background only)
 // Enable map-based background image?
