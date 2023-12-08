@@ -24,7 +24,7 @@ config.logo_use_image = false
 config.logo_image = ""
 
 // Text to be shown on logo
-config.logo_text = "Halo: Harvest"
+config.logo_text = "Halo: Reach"
 
 // Use the server's name for the logo
 config.logo_servername = false
