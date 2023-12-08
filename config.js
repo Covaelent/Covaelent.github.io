@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "",
-		youtube: "https://www.youtube.com/watch?v=76CfsShdqTU",
+		youtube: "https://www.youtube.com/watch?v=mhSX6AQceu0",
 	},
 ]
 
