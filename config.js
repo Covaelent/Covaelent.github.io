@@ -113,7 +113,7 @@ config.music_playlist = [
 		youtube: "https://www.youtube.com/watch?v=mhSX6AQceu0",
 	},
 ]
-
+ 
 // Random music order?
 // "true" or "false"
 config.music_random_order = true
