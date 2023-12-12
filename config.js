@@ -109,8 +109,8 @@ config.music_show = false
 // (Place the audio files in the music folder)
 config.music_playlist = [
 	{
-		name: "",
-		youtube: "https://www.youtube.com/watch?v=mhSX6AQceu0",
+		name: "chrimbo",
+		youtube: "https://www.youtube.com/watch?v=bGDIevAKlGE&t=52s",
 	},
 ]
  
