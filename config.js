@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "chrimbo",
-		youtube: "https://www.youtube.com/watch?v=bGDIevAKlGE&t=52s",
+		youtube: "",
 	},
 ]
  
