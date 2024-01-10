@@ -24,7 +24,7 @@ config.logo_use_image = false
 config.logo_image = ""
 
 // Text to be shown on logo
-config.logo_text = "Umbrella Corporation"
+config.logo_text = "Krudel Dynasty"
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "racooncity.webm"
+config.background_video = "dragonborn.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -127,7 +127,7 @@ config.music_gmod_volume = false
 
 // Enable custom messages?
 // "true" or "false"
-config.messages_enable = true
+config.messages_enable = false
 
 // Enter your custom messages below
 config.messages_list = [
