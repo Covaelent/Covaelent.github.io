@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "combine.webm"
+config.background_video = "intro.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "Human Nature",
-		youtube: "",
+		youtube: "https://www.youtube.com/watch?v=8YQDeWW6euE",
 	},
 ]
  
@@ -120,7 +120,7 @@ config.music_random_order = true
 
 // Music volume
 // Choose a value between 0 (quietest) and 100 (loudest)
-config.music_volume = 8
+config.music_volume = 4
 
 // Use Gmod volume for the music instead of manual volume
 config.music_gmod_volume = false
