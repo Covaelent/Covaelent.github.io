@@ -110,7 +110,7 @@ config.music_show = false
 config.music_playlist = [
 	{
 		name: "Human Nature",
-		youtube: "https://www.youtube.com/watch?v=8YQDeWW6euE",
+		youtube: "https://www.youtube.com/watch?v=poYVmR6BsSg",
 	},
 ]
  
