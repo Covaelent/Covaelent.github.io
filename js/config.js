@@ -85,7 +85,7 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "Jli-cviuC2c?si=IuVMYdpuckcg9x9x", name: ""},
+	{ogg: "songs/intro.ogg", name: "Lullaby of Madness"}
 ];
 
 /*Random music order?*/
