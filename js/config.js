@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Project Blackwing";
+var l_serverName = "Operation Gothic Serpent";
  
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/blackwing.webm";
+var l_background = "backgrounds/videos/blackhawk.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -80,12 +80,12 @@ var l_bgDarkening = 50;
 var l_music = true;
 
 /*Display actual song's name?*/
-var l_musicDisplay = true;
+var l_musicDisplay = false;
 
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/intro.ogg", name: "Lullaby of Madness"}
+	{ogg: "songs/blackhawk.ogg", name: ""}
 ];
 
 /*Random music order?*/
