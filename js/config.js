@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Operation Desert Strike";
+var l_serverName = "Hammerlink";
  
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/blackhawk.webm";
+var l_background = "backgrounds/videos/shadow.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -85,7 +85,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/blackhawk.ogg", name: ""}
+	{ogg: "songs/title.ogg", name: ""}
 ];
 
 /*Random music order?*/
