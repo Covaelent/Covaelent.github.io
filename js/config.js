@@ -13,7 +13,7 @@ var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Hammerlink";
+var l_serverName = "HoloNet Haven";
  
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/shadow.webm";
+var l_background = "backgrounds/videos/Venator.webm";
 
 /*(Image-background only)
 Place one or more images
