@@ -24,7 +24,7 @@ config.logo_use_image = false
 config.logo_image = ""
 
 // Text to be shown on logo
-config.logo_text = "Imperium"
+config.logo_text = "Sanctum Keras"
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "Empire.webm"
+config.background_video = "Clones.webm"
 
 // (Image-background only)
 // Enable map-based background image?
