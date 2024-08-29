@@ -108,10 +108,6 @@ config.music_show = false
 // (Use ogg files for compatibility with default Gmod)
 // (Place the audio files in the music folder)
 config.music_playlist = [
-	{
-		name: "The Empire",
-		youtube: "https://www.youtube.com/watch?v=NA4L5msCt-U",
-	},
 ]
 
 // Random music order?
