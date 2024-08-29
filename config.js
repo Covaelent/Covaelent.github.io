@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "imperial.webm"
+config.background_video = "Empire.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -108,6 +108,7 @@ config.music_show = false
 // (Use ogg files for compatibility with default Gmod)
 // (Place the audio files in the music folder)
 config.music_playlist = [
+
 ]
 
 // Random music order?
