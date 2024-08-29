@@ -128,7 +128,7 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Welcome to Protocol Gaming!",
+	"Welcome to the Empire!",
 	"Please wait while we download the server files",
 	"Enjoy! your stay",
 ]
