@@ -128,7 +128,7 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Welcome to the Empire!",
+	"Welcome to the Grand Army of the Republic, cadet!",
 	"Please wait while we download the server files",
 	"Enjoy! your stay",
 ]
