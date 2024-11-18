@@ -85,7 +85,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "FnwMt7PJ-Yw", name: "NF - Lie"}
+	{youtube: "5o1bH9i8r_w", name: "NF - Lie"}
 ];
 
 /*Random music order?*/
@@ -93,7 +93,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 25;
+var l_musicVolume = 9;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = true;
