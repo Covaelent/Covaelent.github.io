@@ -10,7 +10,7 @@ Config.title = " ";
 /**
  * Enable map text in the top left corner of the screen?
  */
-Config.enableMap = true;
+Config.enableMap = false;
 
 /**
  * Enable steamId text in the top right corner of the screen?
