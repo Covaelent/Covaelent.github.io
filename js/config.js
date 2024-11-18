@@ -10,7 +10,7 @@ Config.title = " ";
 /**
  * Enable map text in the top left corner of the screen?
  */
-Config.enableMap = true;
+Config.enableMap = false;
 
 /**
  * Enable steamId text in the top right corner of the screen?
@@ -20,7 +20,7 @@ Config.enableSteamID = false;
 /**
  * Enable announcements?
  */
-Config.enableAnnouncements = false;
+Config.enableAnnouncements = true;
 
 /**
  * What messages do you want to show up?
@@ -39,7 +39,7 @@ Config.announcementLength = 3000;
  * Image Filename
  * DROP IMAGE IN "images" FOLDER
  */
-Config.backgroundImage = "umbrella.gif";
+Config.backgroundImage = "images/umbrella.gif";
 
 /**
  * Enable debug messages?
