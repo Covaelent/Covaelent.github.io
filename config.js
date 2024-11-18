@@ -24,7 +24,7 @@ config.logo_use_image = false
 config.logo_image = ""
 
 // Text to be shown on logo
-config.logo_text = "Sanctum Keras"
+config.logo_text = "Umbrella Corporation"
 
 // Use the server's name for the logo
 config.logo_servername = false
@@ -50,7 +50,7 @@ config.background_use_video = true
 // You can add your own video backgrounds
 // Just make sure they are using webm VP8 format
 // (Place the video file in the backgrounds/videos folder)
-config.background_video = "Clones.webm"
+config.background_video = "umbrella.webm"
 
 // (Image-background only)
 // Enable map-based background image?
@@ -128,9 +128,7 @@ config.messages_enable = true
 
 // Enter your custom messages below
 config.messages_list = [
-	"Welcome to the Grand Army of the Republic, cadet!",
-	"Please wait while we download the server files",
-	"Enjoy! your stay",
+	"Our business is life itself.",
 ]
 
 // Random message order?
