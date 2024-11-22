@@ -77,7 +77,7 @@ var l_bgDarkening = 10;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = false;
+var l_music = true;
 
 /*Display actual song's name?*/
 var l_musicDisplay = false;
@@ -85,7 +85,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "qxKHVXDRkDk", name: "NF - Lie"}
+	{youtube: "oeEj1BkGwiw", name: "NF - Lie"}
 ];
 
 /*Random music order?*/
