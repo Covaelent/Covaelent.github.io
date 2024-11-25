@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/umbrella.webm";
+var l_background = "backgrounds/videos/halo.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -85,7 +85,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "oeEj1BkGwiw", name: "NF - Lie"}
+	{youtube: "TGCa2kyHFpM", name: "NF - Lie"}
 ];
 
 /*Random music order?*/
