@@ -77,7 +77,7 @@ var l_bgDarkening = 10;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = true;
+var l_music = false;
 
 /*Display actual song's name?*/
 var l_musicDisplay = false;
@@ -96,7 +96,7 @@ Choose a value between 0 and 100*/
 var l_musicVolume = 9;
 
 /*Enable custom messages?*/
-var l_messagesEnabled = true;
+var l_messagesEnabled = false;
 
 /*Enter your custom messages below*/
 var l_messages = [
