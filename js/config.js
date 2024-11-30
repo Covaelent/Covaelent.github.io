@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/videos/halo.webm";
+var l_background = "backgrounds/videos/empire.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -77,7 +77,7 @@ var l_bgDarkening = 10;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
-var l_music = false;
+var l_music = true;
 
 /*Display actual song's name?*/
 var l_musicDisplay = false;
@@ -85,7 +85,7 @@ var l_musicDisplay = false;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{youtube: "TGCa2kyHFpM", name: "NF - Lie"}
+	{youtube: "iX9cYGh603g", name: "NF - Lie"}
 ];
 
 /*Random music order?*/
@@ -93,7 +93,7 @@ var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
-var l_musicVolume = 9;
+var l_musicVolume = 10;
 
 /*Enable custom messages?*/
 var l_messagesEnabled = false;
