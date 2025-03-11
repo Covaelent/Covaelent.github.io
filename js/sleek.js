@@ -72,60 +72,6 @@ function GameDetails( servername, serverurl, mapname, maxplayers, steamid, gamem
 	}
 }
 
-function DownloadingFile( fileName ) {
-	downloadedFiles++;
-	refreshProgress();
-
-	setStatus("Downloading files...");
-}
-
-function SetStatusChanged( status ) {
-	if (status.indexOf("Getting Addon #") != -1) {
-		downloadedFiles++;
-		refreshProgress();
-	}else if (status == "Sending client info...") {
-		setProgress(100);
-	}
-
-	setStatus(status);
-}
-
-/* Useless...
-function SetFilesTotal( total ) {
-	console.log("SetFilesTotal("+total+")");
-}*/
-
-function SetFilesNeeded( needed ) {
-	neededFiles = needed + 1;
-}
-
-function refreshProgress() {
-	progress = Math.floor(((downloadedFiles / neededFiles)*100));
-
-	setProgress(progress);
-}
-
-function setStatus(text) {
-	$("#status").html(text);
-}
-function setProgress(progress) {
-	$("#loading-progress").css("width", progress + "%");
-}
-function setGamemode(gamemode) {
-	$("#gamemode").html(gamemode);
-}
-function setMapname(mapname) {
-	$("#map").html(mapname);
-}
-function setServerName(servername) {
-	$("#title").html(servername);
-}
-function setMusicName(name) {
-	$("#music-name").fadeOut(2000, function() {
-		$(this).html(name);
-		$(this).fadeIn(2000);
-	});
-}
 
 var youtubePlayer;
 var actualMusic = -1;
