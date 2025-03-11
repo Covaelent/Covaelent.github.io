@@ -105,7 +105,27 @@ function refreshProgress() {
 	setProgress(progress);
 }
 
-
+function setStatus(text) {
+	$("#status").html(text);
+}
+function setProgress(progress) {
+	$("#loading-progress").css("width", progress + "%");
+}
+function setGamemode(gamemode) {
+	$("#gamemode").html(gamemode);
+}
+function setMapname(mapname) {
+	$("#map").html(mapname);
+}
+function setServerName(servername) {
+	$("#title").html(servername);
+}
+function setMusicName(name) {
+	$("#music-name").fadeOut(2000, function() {
+		$(this).html(name);
+		$(this).fadeIn(2000);
+	});
+}
 
 var youtubePlayer;
 var actualMusic = -1;
