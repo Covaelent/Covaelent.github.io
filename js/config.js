@@ -22,7 +22,7 @@ var l_displayMapGamemode = false;
 
 // Custom server name configuration
 // Leave it blank for automatic server name
-var l_serverName = "Helghast Network";
+var l_serverName = "Hammerlink";
 
 // Use a video for the background?
 // Otherwise it will use images
@@ -55,7 +55,7 @@ var l_bgVideo = true;
 // Just make sure they are using webm VP8 format 
 // (Place the videos in the backgrounds/videos folder)
 // (You can also use external URL)
-var l_background = "site-10.webm";
+var l_background = "tlou.webm";
 
 // (Image-background only)
 // Enable map-based background image?
@@ -120,7 +120,7 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "site-10.ogg", name: "Unknown"},
+	{ogg: "tlou.ogg", name: "Unknown"},
 ];
 
 // Random music order?
