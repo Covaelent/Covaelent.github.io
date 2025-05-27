@@ -109,7 +109,7 @@ var l_bgDarkening = 20;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = true;
+var l_music = false;
 
 // Display current music name?
 // 'true' or 'false'
