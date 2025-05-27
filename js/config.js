@@ -109,7 +109,7 @@ var l_bgDarkening = 20;
 
 // Play music during the loading screen?
 // 'true' or 'false'
-var l_music = false;
+var l_music = true;
 
 // Display current music name?
 // 'true' or 'false'
@@ -120,7 +120,7 @@ var l_musicDisplay = false;
 // (Place the ogg files in the music folder)
 // (You can also use external URL for the ogg files)
 var l_musicPlaylist = [
-	{ogg: "hd2.ogg", name: "Unknown"},
+	{ogg: "swrp.ogg", name: "Unknown"},
 ];
 
 // Random music order?
