@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "Sundering of the Stars";
+Config.title = "Reich der Asche";
 
 /**
  * Enable map text in the top left corner of the screen?
@@ -27,7 +27,7 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Join our Community @ discord.gg/9DnnnH4q2F"
+  "Join our Community @ discord.gg/YKZX4cVpwU"
 ];
 
 /**
@@ -40,7 +40,7 @@ Config.announcementLength = 3000;
  * Image Filename
  * DROP IMAGE IN "images" FOLDER
  */
-Config.backgroundImage = "default.jpeg";
+Config.backgroundImage = "default.gif";
 
 /**
  * Enable debug messages?
