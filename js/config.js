@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "SGC: Project Oroborus";
+Config.title = "SGC: Leviathan Order";
 
 /**
  * Enable map text in the top left corner of the screen?
@@ -27,7 +27,7 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Join our Community @ discord.gg/YKZX4cVpwU"
+  "Join our Community @ discord.gg/"
 ];
 
 /**
