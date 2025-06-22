@@ -5,7 +5,7 @@ var Config = {};
  * What should the text in the center of the screen be?
  * if empty it will fill in your Server Name
  */
-Config.title = "Reich der Asche";
+Config.title = "SGC: Project Oroborus";
 
 /**
  * Enable map text in the top left corner of the screen?
@@ -40,7 +40,7 @@ Config.announcementLength = 3000;
  * Image Filename
  * DROP IMAGE IN "images" FOLDER
  */
-Config.backgroundImage = "default.gif";
+Config.backgroundImage = "default.jpg";
 
 /**
  * Enable debug messages?
