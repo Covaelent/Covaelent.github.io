@@ -27,7 +27,7 @@ Config.enableAnnouncements = true;
  * only works if enableAnnouncements = true
  */
 Config.announceMessages = [
-  "Join our Community @ discord.gg/"
+  "Join our Community @ discord.gg/halo-repentance"
 ];
 
 /**
